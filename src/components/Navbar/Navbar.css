@@ -1,0 +1,54 @@
+.navbar{
+    width: 100%;
+}
+
+.btn-contact{
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
+    border-radius: 50px;
+}
+
+.nav-list{
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.nav-list{
+    list-style: none;
+}
+
+.list-item-link{
+    text-decoration: none;
+    color: black;
+}
+
+.list-item{
+    color: rgb(118, 118, 118);
+    font-weight: 500;
+}
+
+.list-item:hover{
+    font-weight: 600;
+    color: black;
+    text-decoration: underline;
+    text-decoration-thickness: 3px;
+    text-decoration-color: rgb(36, 169, 36);
+}
+
+.logo-img{
+    width: 60%;
+    height: auto;
+}
+
+@media screen and(max-width: 768px) {
+    .contact-btn{
+        display:none;
+    }
+
+    .nav-list{
+        display: none;
+    }
+}
